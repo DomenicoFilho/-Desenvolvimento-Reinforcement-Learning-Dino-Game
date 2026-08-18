@@ -433,7 +433,7 @@ def gameplay():
                         last_obstacle.add(Ptera(gamespeed, 46, 40))
 
             if len(clouds) < 5 and random.randrange(0,300) == 10:
-                Cloud(width,random.randrange(height/5,height/2))
+                Cloud(width,random.randrange(height//5,height//2))
 
             playerDino.update()
             cacti.update()
