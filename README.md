@@ -4,6 +4,14 @@ A [`gymnasium`](https://gymnasium.farama.org/)-compatible reinforcement learning
 
 ![Trained agent playing the Dino game](screenshot.gif)
 
+## Watching the network think
+
+The clip below plays a real episode from the trained agent side by side with its actual policy network — the same weights extracted from `dino_agente.zip`, live: 5 input sensors, two hidden layers (a real sample of the 64 neurons in each), and the 3 output actions with their softmax probabilities, updating frame by frame as the dino plays.
+
+<video src="https://raw.githubusercontent.com/DomenicoFilho/-Desenvolvimento-Reinforcement-Learning-Dino-Game/main/dino_agent_demo.mp4" controls muted width="100%"></video>
+
+*(if the video above doesn't render in your Markdown viewer: [dino_agent_demo.mp4](dino_agent_demo.mp4))*
+
 ## What this project is
 
 The original game — [`T-Rex Rush`](https://github.com/shivamshekhar/Chrome-T-Rex-Rush) by Shivam Shekhar — is a Pygame clone of the dinosaur game that appears in Chrome when you're offline. That game itself was **not written for this project**; the sprites, physics, scoring and obstacle-spawning logic in `main.py` are the original, unmodified source.
