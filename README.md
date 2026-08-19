@@ -8,9 +8,9 @@ A [`gymnasium`](https://gymnasium.farama.org/)-compatible reinforcement learning
 
 The clip below plays a real episode from the trained agent side by side with its actual policy network — the same weights extracted from `dino_agente.zip`, live: 5 input sensors, two hidden layers (a real sample of the 64 neurons in each), and the 3 output actions with their softmax probabilities, updating frame by frame as the dino plays.
 
-<video src="https://raw.githubusercontent.com/DomenicoFilho/-Desenvolvimento-Reinforcement-Learning-Dino-Game/main/dino_agent_demo.mp4" controls muted width="100%"></video>
+![Real PPO policy network playing the Dino game](dino_agent_demo.gif)
 
-*(if the video above doesn't render in your Markdown viewer: [dino_agent_demo.mp4](dino_agent_demo.mp4))*
+*(higher quality / real-time speed version: [dino_agent_demo.mp4](dino_agent_demo.mp4))*
 
 ## What this project is
 
